@@ -27,4 +27,4 @@ let attributes = DispatchQueue.Attributes.concurrent // 队列属性 默认串�
 let autoreleaseFrequency = DispatchQueue.AutoreleaseFrequency.never //自动释放频率
 
 
-let queue = DispatchQueue(label: label, qos: qos, attributes: attributes, autoreleaseFrequency: autoreleaseFrequency, target: nil)
+let queueDetail = DispatchQueue(label: label, qos: qos, attributes: attributes, autoreleaseFrequency: autoreleaseFrequency, target: nil)
